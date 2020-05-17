@@ -1,0 +1,25 @@
+
+git config --global user.name "xxx"
+git config --globl user.email "xxxxxxxxx.com"
+
+
+git add filename  -- Add file to staging area.
+git add -A	  -- Add all changed fils to staging area
+
+git status
+git commit -m "message"
+git log
+git log --oneline
+
+git diff
+
+
+git clone "remote repo"
+git clone https://github.com/kris17git/Practice.git
+
+$ git remote -v
+Practice        https://github.com/kris17git/Practice.git (fetch)
+Practice        https://github.com/kris17git/Practice.git (push)
+
+git remote -v 
+git brach -a
